@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" fill="none">
+    <rect width="800" height="500" fill="#E8F3ED"/>
+    <circle cx="690" cy="80" r="150" fill="#FFFFFF" opacity="0.4"/>
+    <circle cx="90" cy="450" r="170" fill="#FFFFFF" opacity="0.3"/>
+    <g transform="translate(500 120) scale(3.28125)" opacity="0.35">
+    <path d="M8 44 32 14l24 30H8Z" fill="none" stroke="#167D5A" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M32 14v30M20 44v8M44 44v8M12 52h40" fill="none" stroke="#167D5A" stroke-width="4" stroke-linecap="round"/></g>
+    <rect x="56" y="62" width="70" height="70" rx="20" fill="#FFFFFF"/>
+    <text x="91" y="109" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#167D5A">GE</text>
+    <text x="56" y="210" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#252A27">Gudang Event Sanur</text>
+    <text x="56" y="250" font-family="Arial, sans-serif" font-size="22" fill="#737B76">Perlengkapan &amp; Penyewaan</text>
+    <rect x="56" y="290" width="182" height="38" rx="19" fill="#167D5A" opacity="0.12"/>
+    <text x="147" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#167D5A">PROFIL DEMO</text></svg>

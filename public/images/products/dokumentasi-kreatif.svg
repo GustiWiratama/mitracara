@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" fill="none">
+    <rect width="600" height="400" fill="#EDF2F4"/>
+    <circle cx="500" cy="70" r="90" fill="#FFFFFF" opacity="0.45"/>
+    <circle cx="80" cy="340" r="110" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="96" y="92" width="408" height="216" rx="24" fill="#FFFFFF" opacity="0.85"/>
+    <g transform="translate(122 112) scale(1.40625)" opacity="1">
+    <g fill="none" stroke="#3C6570" stroke-width="4" stroke-linejoin="round">
+      <rect x="8" y="19" width="48" height="32" rx="7"/>
+      <path d="M23 19l4-6h10l4 6"/>
+      <circle cx="32" cy="35" r="10"/>
+    </g></g>
+    <text x="240" y="176" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#252A27">Contoh Produk</text>
+    <text x="240" y="210" font-family="Arial, sans-serif" font-size="18" fill="#737B76">Dokumentasi &amp; Kreatif</text>
+    <text x="240" y="260" font-family="Arial, sans-serif" font-size="14" fill="#737B76">Gambar ilustrasi demo MITRACARA</text></svg>

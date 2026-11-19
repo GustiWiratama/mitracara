@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" fill="none">
+    <rect width="800" height="500" fill="#F5F1E5"/>
+    <circle cx="690" cy="80" r="150" fill="#FFFFFF" opacity="0.4"/>
+    <circle cx="90" cy="450" r="170" fill="#FFFFFF" opacity="0.3"/>
+    <g transform="translate(500 120) scale(3.28125)" opacity="0.35">
+    <g fill="none" stroke="#8A6B2F" stroke-width="3">
+      <ellipse cx="32" cy="18" rx="7" ry="12"/>
+      <ellipse cx="32" cy="18" rx="7" ry="12" transform="rotate(60 32 28)"/>
+      <ellipse cx="32" cy="18" rx="7" ry="12" transform="rotate(120 32 28)"/>
+      <circle cx="32" cy="28" r="5" fill="#8A6B2F" stroke="none"/>
+      <path d="M14 42h36l-5 12H19L14 42Z"/>
+      <path d="M20 54h24" stroke-linecap="round"/>
+    </g></g>
+    <rect x="56" y="62" width="70" height="70" rx="20" fill="#FFFFFF"/>
+    <text x="91" y="109" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#8A6B2F">AD</text>
+    <text x="56" y="210" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#252A27">Alat Upacara Dharma</text>
+    <text x="56" y="250" font-family="Arial, sans-serif" font-size="22" fill="#737B76">Adat &amp; Kerohanian</text>
+    <rect x="56" y="290" width="182" height="38" rx="19" fill="#8A6B2F" opacity="0.12"/>
+    <text x="147" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#8A6B2F">PROFIL DEMO</text></svg>

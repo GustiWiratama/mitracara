@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" width="1000" height="760" fill="none">
+  <rect width="1000" height="760" rx="40" fill="#E8F3ED"/>
+  <circle cx="850" cy="90" r="150" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="110" cy="680" r="180" fill="#FFFFFF" opacity="0.4"/>
+  <rect x="70" y="120" width="380" height="250" rx="28" fill="#FFFFFF"/>
+  <g transform="translate(100 150) scale(1.40625)" opacity="1">
+    <path d="M8 44 32 14l24 30H8Z" fill="none" stroke="#167D5A" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M32 14v30M20 44v8M44 44v8M12 52h40" fill="none" stroke="#167D5A" stroke-width="4" stroke-linecap="round"/></g>
+  <text x="210" y="192" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#252A27">Organisasi Kampus</text>
+  <text x="100" y="300" font-family="Arial, sans-serif" font-size="17" fill="#737B76">Mencari mitra acara</text>
+  <rect x="550" y="120" width="380" height="250" rx="28" fill="#FFFFFF"/>
+  <g transform="translate(580 150) scale(1.40625)" opacity="1">
+    <circle cx="32" cy="35" r="15" fill="none" stroke="#B85C1A" stroke-width="4"/>
+    <circle cx="32" cy="35" r="8" fill="none" stroke="#B85C1A" stroke-width="3"/>
+    <path d="M10 20v28M6 20v10a4 4 0 0 0 8 0V20M54 20v28M50 20c0 6 8 6 8 0" fill="none" stroke="#B85C1A" stroke-width="3" stroke-linecap="round"/></g>
+  <text x="690" y="192" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#252A27">UMKM Lokal</text>
+  <text x="580" y="300" font-family="Arial, sans-serif" font-size="17" fill="#737B76">Menawarkan produk &amp; jasa</text>
+  <path d="M450 245h100" stroke="#167D5A" stroke-width="5" stroke-dasharray="10 12" stroke-linecap="round"/>
+  <circle cx="500" cy="245" r="52" fill="#F2A65A"/>
+  <path d="M500 272c-24-15-36-27-36-41a18 18 0 0 1 36-9 18 18 0 0 1 36 9c0 14-12 26-36 41Z" fill="#FFFFFF"/>
+  <rect x="70" y="430" width="860" height="230" rx="28" fill="#FFFFFF" opacity="0.95"/>
+  <g transform="translate(100 470) scale(1.25)" opacity="1">
+    <g fill="none" stroke="#167D5A" stroke-width="4" stroke-linejoin="round">
+      <rect x="8" y="19" width="48" height="32" rx="7"/>
+      <path d="M23 19l4-6h10l4 6"/>
+      <circle cx="32" cy="35" r="10"/>
+    </g></g>
+  <g transform="translate(260 470) scale(1.25)" opacity="1">
+    <g fill="none" stroke="#167D5A" stroke-width="4" stroke-linecap="round">
+      <rect x="26" y="10" width="12" height="24" rx="6"/>
+      <path d="M18 30a14 14 0 0 0 28 0M32 44v8M24 52h16"/>
+      <path d="M46 18c6 2 8 6 8 12" stroke-width="3"/>
+    </g></g>
+  <g transform="translate(420 470) scale(1.25)" opacity="1">
+    <g fill="none" stroke="#167D5A" stroke-width="3">
+      <ellipse cx="32" cy="18" rx="7" ry="12"/>
+      <ellipse cx="32" cy="18" rx="7" ry="12" transform="rotate(60 32 28)"/>
+      <ellipse cx="32" cy="18" rx="7" ry="12" transform="rotate(120 32 28)"/>
+      <circle cx="32" cy="28" r="5" fill="#167D5A" stroke="none"/>
+      <path d="M14 42h36l-5 12H19L14 42Z"/>
+      <path d="M20 54h24" stroke-linecap="round"/>
+    </g></g>
+  <g transform="translate(580 470) scale(1.25)" opacity="1">
+    <circle cx="32" cy="35" r="15" fill="none" stroke="#167D5A" stroke-width="4"/>
+    <circle cx="32" cy="35" r="8" fill="none" stroke="#167D5A" stroke-width="3"/>
+    <path d="M10 20v28M6 20v10a4 4 0 0 0 8 0V20M54 20v28M50 20c0 6 8 6 8 0" fill="none" stroke="#167D5A" stroke-width="3" stroke-linecap="round"/></g>
+  <g transform="translate(740 470) scale(1.25)" opacity="1">
+    <path d="M8 44 32 14l24 30H8Z" fill="none" stroke="#167D5A" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M32 14v30M20 44v8M44 44v8M12 52h40" fill="none" stroke="#167D5A" stroke-width="4" stroke-linecap="round"/></g>
+  <text x="500" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#252A27">Satu tempat untuk seluruh kebutuhan acara</text></svg>

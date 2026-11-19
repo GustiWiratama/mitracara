@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/*
+ * MITRACARA design tokens — sourced from UI-SPEC.md section 2.
+ * Declared with @theme so Tailwind generates utilities such as
+ * bg-brand-600, text-ink, border-line and font-sans.
+ */
+@theme {
+  --color-brand-50: #e8f3ed;
+  --color-brand-600: #167d5a;
+  --color-brand-700: #105c43;
+  --color-cream: #faf8f2;
+  --color-accent: #f2a65a;
+  --color-ink: #252a27;
+  --color-muted: #737b76;
+  --color-line: #e5e8e5;
+
+  --font-sans: var(--font-plus-jakarta-sans), "Plus Jakarta Sans",
+    ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand-600);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
