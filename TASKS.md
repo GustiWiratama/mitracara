@@ -193,31 +193,31 @@ public/
 
 ### Tasks
 
-- [ ] Build VendorSearch component.
-- [ ] Implement search by vendor name.
-- [ ] Implement search by product or service name.
-- [ ] Implement category filtering.
-- [ ] Implement location filtering.
-- [ ] Implement sorting by newest.
-- [ ] Implement sorting by rating.
-- [ ] Implement reset filter functionality.
-- [ ] Display total vendor count.
-- [ ] Build empty search results state.
-- [ ] Implement responsive filter interface.
+- [x] Build VendorSearch component.
+- [x] Implement search by vendor name.
+- [x] Implement search by product or service name.
+- [x] Implement category filtering.
+- [x] Implement location filtering.
+- [x] Implement sorting by newest.
+- [x] Implement sorting by rating.
+- [x] Implement reset filter functionality.
+- [x] Display total vendor count.
+- [x] Build empty search results state.
+- [x] Implement responsive filter interface.
 
 ### Acceptance Criteria
 
-- [ ] Search returns vendors matching the entered keyword.
-- [ ] Search works for vendor names.
-- [ ] Search works for product and service names.
-- [ ] Category filter displays only matching vendors.
-- [ ] Location filter displays only matching vendors.
-- [ ] Sorting by newest works correctly.
-- [ ] Sorting by rating works correctly.
-- [ ] Multiple filters can be used simultaneously.
-- [ ] Reset filter restores the original vendor listing.
-- [ ] Empty state appears when no vendors match.
-- [ ] Search and filter interface works on mobile devices.
+- [x] Search returns vendors matching the entered keyword.
+- [x] Search works for vendor names.
+- [x] Search works for product and service names.
+- [x] Category filter displays only matching vendors.
+- [x] Location filter displays only matching vendors.
+- [x] Sorting by newest works correctly.
+- [x] Sorting by rating works correctly.
+- [x] Multiple filters can be used simultaneously.
+- [x] Reset filter restores the original vendor listing.
+- [x] Empty state appears when no vendors match.
+- [x] Search and filter interface works on mobile devices.
 
 ### Expected Files
 
@@ -633,8 +633,8 @@ Deployment configuration may also involve platform settings outside the project 
 - [ ] Five vendor categories available.
 - [ ] Vendor catalog completed.
 - [ ] Vendor detail pages completed.
-- [ ] Search and filtering completed.
-- [ ] Sorting completed.
+- [x] Search and filtering completed.
+- [x] Sorting completed.
 - [ ] WhatsApp integration completed.
 - [ ] Favorite functionality completed.
 - [ ] Partner registration UI completed.
@@ -680,6 +680,6 @@ MITRACARA is considered complete when:
 **Styling:** Tailwind CSS  
 **Scope:** Frontend Only  
 **Milestones:** 10  
-**Status:** Milestone 2 Complete
+**Status:** Milestone 3 Complete
 
 **End of TASKS.md — MITRACARA**

@@ -3,18 +3,21 @@
 import { useRouter } from "next/navigation";
 import { useState, type FormEvent } from "react";
 import { Search } from "lucide-react";
+import {
+  buildVendorCatalogHref,
+  DEFAULT_VENDOR_FILTERS,
+} from "@/lib/vendor-filters";
 
-/**
- * Visual search entry point on the landing page. Keyword filtering itself is
- * scheduled for Milestone 3; for now this navigates to the vendor catalog.
- */
+/** Landing page search entry point that hands the keyword to the catalog. */
 export function HeroSearch() {
   const router = useRouter();
   const [query, setQuery] = useState("");
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    router.push("/vendors");
+    router.push(
+      buildVendorCatalogHref({ ...DEFAULT_VENDOR_FILTERS, q: query.trim() }),
+    );
   };
 
   return (

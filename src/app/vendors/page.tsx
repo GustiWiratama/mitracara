@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { EmptyState } from "@/components/ui/EmptyState";
 import { PageContainer } from "@/components/ui/PageContainer";
+import { VendorFilter } from "@/components/vendors/VendorFilter";
 import { VendorGrid } from "@/components/vendors/VendorGrid";
+import { VendorSearch } from "@/components/vendors/VendorSearch";
 import { categories } from "@/data/categories";
 import { vendors } from "@/data/vendors";
+import {
+  filterVendors,
+  hasActiveVendorFilters,
+  parseVendorFilters,
+} from "@/lib/vendor-filters";
 
 export const metadata: Metadata = {
   title: "Jelajahi Vendor",
@@ -12,7 +20,15 @@ export const metadata: Metadata = {
     "Jelajahi direktori vendor lokal MITRACARA untuk kebutuhan acara organisasi kemahasiswaan.",
 };
 
-export default function VendorsPage() {
+type VendorsPageProps = {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+};
+
+export default async function VendorsPage({ searchParams }: VendorsPageProps) {
+  const filters = parseVendorFilters(await searchParams);
+  const results = filterVendors(filters);
+  const hasFilters = hasActiveVendorFilters(filters);
+
   return (
     <main>
       <section className="border-b border-line bg-white">
@@ -46,10 +62,22 @@ export default function VendorsPage() {
       </section>
 
       <section className="bg-cream">
-        <PageContainer className="py-10 sm:py-14">
-          <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
-            <p className="text-sm font-semibold text-ink">
-              {vendors.length} vendor ditemukan
+        <PageContainer className="space-y-6 py-10 sm:py-14">
+          <VendorSearch key={filters.q} filters={filters} />
+          <VendorFilter filters={filters} />
+
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <p
+              aria-live="polite"
+              className="text-sm font-semibold text-ink"
+            >
+              {results.length} vendor ditemukan
+              {hasFilters && (
+                <span className="font-normal text-muted">
+                  {" "}
+                  dari {vendors.length} vendor
+                </span>
+              )}
             </p>
             <Link
               href="/#categories"
@@ -60,7 +88,11 @@ export default function VendorsPage() {
             </Link>
           </div>
 
-          <VendorGrid vendors={vendors} columns={4} />
+          {results.length > 0 ? (
+            <VendorGrid vendors={results} columns={4} />
+          ) : (
+            <EmptyState />
+          )}
         </PageContainer>
       </section>
     </main>
