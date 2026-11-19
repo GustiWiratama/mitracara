@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, MapPin } from "lucide-react";
+import { VendorContactButton } from "@/components/vendors/VendorContactButton";
 import { RatingBadge } from "@/components/ui/RatingBadge";
 import { SafeImage } from "@/components/ui/SafeImage";
 import { VerificationStatus } from "@/components/ui/VerificationStatus";
@@ -58,13 +59,16 @@ export function VendorCard({ vendor, priority = false }: VendorCardProps) {
           <RatingBadge rating={vendor.rating} reviewCount={vendor.reviewCount} />
         </div>
 
-        <Link
-          href={detailHref}
-          className="mt-4 inline-flex min-h-10 items-center justify-center gap-1.5 rounded-xl border border-brand-600 px-3 text-sm font-semibold text-brand-700 transition-colors hover:bg-brand-600 hover:text-white"
-        >
-          Lihat Detail
-          <ArrowRight aria-hidden="true" className="h-4 w-4" />
-        </Link>
+        <div className="mt-4 grid grid-cols-2 gap-2">
+          <Link
+            href={detailHref}
+            className="inline-flex min-h-10 items-center justify-center gap-1.5 rounded-xl border border-brand-600 px-2 text-xs font-semibold text-brand-700 transition-colors hover:bg-brand-600 hover:text-white sm:text-sm"
+          >
+            Lihat Detail
+            <ArrowRight aria-hidden="true" className="h-4 w-4" />
+          </Link>
+          <VendorContactButton vendor={vendor} variant="compact" />
+        </div>
       </div>
     </article>
   );

@@ -9,6 +9,7 @@ import {
   Phone,
   Store,
 } from "lucide-react";
+import { VendorContactButton } from "@/components/vendors/VendorContactButton";
 import { RatingBadge } from "@/components/ui/RatingBadge";
 import { SafeImage } from "@/components/ui/SafeImage";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -110,13 +111,22 @@ export default async function VendorDetailPage({ params }: VendorDetailProps) {
               </div>
             </div>
 
-            <a
-              href={phoneHref}
-              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-brand-600 px-5 text-sm font-semibold text-brand-700 transition-colors hover:bg-brand-50"
-            >
-              <Phone aria-hidden="true" className="h-4 w-4" />
-              Telepon Vendor
-            </a>
+            <div className="flex w-full flex-col gap-2 sm:w-auto">
+              <VendorContactButton vendor={vendor} />
+              <a
+                href={phoneHref}
+                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-brand-600 px-5 text-sm font-semibold text-brand-700 transition-colors hover:bg-brand-50"
+              >
+                <Phone aria-hidden="true" className="h-4 w-4" />
+                Telepon Vendor
+                <span className="inline-flex items-center rounded bg-brand-50 px-1.5 py-0.5 text-[9px] font-bold leading-none tracking-wide text-brand-700">
+                  DEMO
+                </span>
+              </a>
+              <p className="text-[11px] leading-relaxed text-muted">
+                Kontak demo — nomor fiktif untuk prototipe MITRACARA.
+              </p>
+            </div>
           </div>
         </PageContainer>
       </section>
@@ -236,6 +246,13 @@ export default async function VendorDetailPage({ params }: VendorDetailProps) {
                       </li>
                     ))}
                   </ul>
+                  <div className="mt-4 border-t border-line pt-4">
+                    <VendorContactButton
+                      vendor={vendor}
+                      productName={product.name}
+                      variant="secondary"
+                    />
+                  </div>
                 </div>
               </article>
             ))}

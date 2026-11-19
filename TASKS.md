@@ -247,24 +247,24 @@ src/
 
 ### Tasks
 
-- [ ] Create centralized WhatsApp URL utility.
-- [ ] Store vendor WhatsApp numbers in mock data.
-- [ ] Generate vendor-specific WhatsApp links.
-- [ ] Create reusable VendorContactButton.
-- [ ] Add WhatsApp button to vendor detail page.
-- [ ] Add contact action to relevant vendor cards where appropriate.
-- [ ] Generate pre-filled WhatsApp messages.
-- [ ] Configure external link security attributes.
+- [x] Create centralized WhatsApp URL utility.
+- [x] Store vendor WhatsApp numbers in mock data.
+- [x] Generate vendor-specific WhatsApp links.
+- [x] Create reusable VendorContactButton.
+- [x] Add WhatsApp button to vendor detail page.
+- [x] Add contact action to relevant vendor cards where appropriate.
+- [x] Generate pre-filled WhatsApp messages.
+- [x] Configure external link security attributes.
 
 ### Acceptance Criteria
 
-- [ ] Every vendor has its own WhatsApp contact information in mock data.
-- [ ] WhatsApp links use the correct vendor number.
-- [ ] Pre-filled messages contain the intended text.
-- [ ] Message content is URL encoded correctly.
-- [ ] Clicking the button opens the intended WhatsApp destination.
-- [ ] External links use appropriate `target` and `rel` attributes.
-- [ ] Missing contact information is handled gracefully.
+- [x] Every vendor has its own WhatsApp contact information in mock data.
+- [x] WhatsApp links use the correct vendor number.
+- [x] Pre-filled messages contain the intended text.
+- [x] Message content is URL encoded correctly.
+- [x] Clicking the button opens the intended WhatsApp destination.
+- [x] External links use appropriate `target` and `rel` attributes.
+- [x] Missing contact information is handled gracefully.
 
 ### Expected Files
 
@@ -635,7 +635,7 @@ Deployment configuration may also involve platform settings outside the project 
 - [ ] Vendor detail pages completed.
 - [x] Search and filtering completed.
 - [x] Sorting completed.
-- [ ] WhatsApp integration completed.
+- [x] WhatsApp integration completed.
 - [ ] Favorite functionality completed.
 - [ ] Partner registration UI completed.
 - [ ] Authentication demonstration pages completed.
@@ -680,6 +680,6 @@ MITRACARA is considered complete when:
 **Styling:** Tailwind CSS  
 **Scope:** Frontend Only  
 **Milestones:** 10  
-**Status:** Milestone 3 Complete
+**Status:** Milestone 4 Complete
 
 **End of TASKS.md — MITRACARA**
